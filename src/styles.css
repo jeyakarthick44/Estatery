@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+body {
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+.App {
+  margin: 0px 140px;
+}
+
+.title {
+  font-size: 40px;
+  text-align: left;
+  font-weight: bold;
+  color: black;
+}
+
+::placeholder {
+  font-size: 16px;
+}
+
+.search_wrapper {
+  display: flex;
+  flex-direction: row;
+  margin: 50px 0px 30px 0px;
+}
+
+/* Header */
+
+.header_container {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 168, 255, 0.3);
+  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.header_container h2 {
+  font-size: 22px;
+  padding: 6px 50px 0px 40px;
+  font-weight: bold;
+  color: #6e4ff7;
+}
+
+.header_list {
+  padding: 30px;
+  margin: 0px;
+  align-items: center;
+}
+
+.header_button {
+  background-color: #405cf5;
+  border-radius: 6px;
+  border-width: 0;
+  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  height: 44px;
+  text-align: center;
+  font-size: 16px;
+  padding: 0px 25px;
+  margin: 20px 0px 0px 20px;
+}
+
+.login {
+  background-color: #fff;
+  color: black;
+  margin-left: 350px;
+}
+
+/* Search */
+
+.search_container {
+  width: 96%;
+  margin-bottom: 30px;
+  margin-right: 300px;
+  height: 120px;
+  display: flex;
+  flex-direction: row;
+  background-color: #ffffff;
+  border: 1px solid white;
+  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+.search {
+  width: 150px;
+  height: 60px;
+  background-color: #6e4ff7;
+  font-size: 22px;
+  color: white;
+  text-align: center;
+  border-style: none;
+  margin-left: 40px;
+  margin-top: 30px;
+  border-radius: 20px;
+}
+
+.search_box {
+  width: 30%;
+  height: 20px;
+  border: 1px solid #ada9a9;
+  padding: 2% 6%;
+  margin: 3% 6% 2% 18%;
+  background-image: url(https://www.pngfind.com/pngs/m/319-3196157_research-data-and-insights-search-icon-png-transparent.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: 1px solid rgb(236, 225, 225);
+  box-shadow: 0 3px 10px 0 rgba(87, 86, 86, 0.1);
+  background-position: 12px;
+  background-size: 16px;
+  background-color: rgb(255, 255, 255);
+}
+
+/* Dropdown */
+
+.dropdown_component {
+  width: 220px;
+  height: 80px;
+  background-color: #ffffff;
+  font-size: 20px;
+  color: #929292;
+  text-align: center;
+  border-style: none;
+}
+
+.dropdown {
+  width: 220px;
+  height: 40px;
+  background-color: #ffffff;
+  font-size: 20px;
+  border-style: none;
+  outline: 0px;
+}
+
+.slide {
+  font-size: 20px;
+  overflow: hidden;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* HouseList  */
+
+.main {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.container {
+  display: inline-block;
+  width: calc(32% - 16px);
+  margin: 8px;
+  border-radius: 6px;
+  border: 1px;
+  border: 1px solid rgba(0, 168, 255, 0.3);
+  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.house_image {
+  width: 100%;
+  height: 200px;
+}
+
+.house_price {
+  font-size: 18px;
+  text-align: left;
+  margin: 15px;
+  font-weight: 600;
+  color: #6e4ff7;
+  overflow: hidden;
+}
+.house_name {
+  font-size: 20px;
+  text-align: left;
+  margin: 15px;
+  overflow: hidden;
+  font-weight: bolder;
+}
+
+.house_price_per_month {
+  font-size: 14px;
+  text-align: left;
+  overflow: hidden;
+  color: #929292;
+}
+
+.house_address {
+  font-size: 16px;
+  text-align: left;
+  margin: 15px;
+  overflow: hidden;
+  color: #929292;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee5e5;
+}
+
+.house_amenities {
+  padding-bottom: 20px;
+}
+
+.house_amenities span {
+  font-size: 16px;
+  text-align: left;
+  margin: 15px;
+  overflow: hidden;
+  color: #929292;
+}
+
+.icon {
+  color: #6e4ff7;
+}
